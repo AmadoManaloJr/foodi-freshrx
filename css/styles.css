@@ -1,0 +1,57 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+h1{
+    color:black;
+}
+h1 span{
+    color: #1cad58;
+}
+h2{
+    color: #1cad58;
+    font-family: 'Jost';
+}
+
+header h2 {
+    color: #1cad58;
+    font-family: 'Jost';
+}
+
+.site-footer {
+    background: #1cad58;
+    padding: 20px 0;
+    font-family: 'Jost';
+}
+.site-footer a{
+    color: white;
+    font-family: 'Jost';
+    text-decoration: none;
+}
+.site-footer h5{
+    color:white;
+    font-family: 'Jost';
+}
+
+ .jumbotron {
+    padding: 30px;
+    background-color:  white;
+    color: #1cad58;
+    margin: 0;
+    font-family: 'Jost';
+    
+    }
+.btn-success {
+        background-color: #1cad58;
+        border-color: #1cad58;
+        border-radius: 16px 8px; 
+    }
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+
+}
+.navbar {      
+    background-color:#1cad58;;
+    font-family: 'Jost';
+}
