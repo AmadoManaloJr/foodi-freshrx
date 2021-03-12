@@ -1,6 +1,9 @@
 body {
     font-family: 'Jost', sans-serif;
 }
+sup{
+    color: black;
+}
 h1{
     color:black;
 }
@@ -11,7 +14,9 @@ h2{
     color: #1cad58;
     font-family: 'Jost';
 }
-
+h2 span{
+    color:black;
+}
 header h2 {
     color: #1cad58;
     font-family: 'Jost';
@@ -54,4 +59,10 @@ header h2 {
 .navbar {      
     background-color:#1cad58;;
     font-family: 'Jost';
+}
+li{
+    list-style:none;
+}
+.fa-check-circle {
+color:#1cad58;
 }
