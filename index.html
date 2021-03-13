@@ -10,10 +10,12 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
    <!-- Additional CSS must be placed after Bootstrap CSS -->
-   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
    <link rel="stylesheet" href="css/styles.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+   
     <title>FoodiFreshRx: A Better Way To Eat</title>
 </head>
 
@@ -48,8 +50,8 @@
         <div class="row row-content align-items-center">
             
                 <div class="col">
-                    <h3 class="display-3">America's Best Meal Kit Solution for<br> Ninja Foodi owners</h3>
-                    <p class="lead">We help you create healthy Meals.</p>
+                    <h3 class="display-3">America's Best Meal Kit Solution for<br> Ninja Foodi Owners</h3>
+                    <p class="lead">We help you create healthy meals with our easy to follow recipes and meal kits.</p>
                     <p><a href="#" class="btn btn-success btn-lg" role="button">View Our Plans</a></p>
                     <img src="img/masthead.jpg" class="img-fluid mb-4 mx-auto"/>    
                 </div> 
@@ -76,7 +78,7 @@
                         <i class="fas fa-utensils fa-stack-1x" style="color:silver"></i>      
                     </span>
                     <div class="card-body px-auto mx-auto">
-                      <h5 class="card-title">All the proteins</h5>
+                      <h5 class="card-title">All the proteins!</h5>
                       <p class="card-text mx-auto px-auto">Chicken, fish, steak, plant? Don't worry we got you covered, fam.</p>
                      
                     </div>
@@ -121,7 +123,7 @@
     <div class="container">
         <div class="row row-content align-items-center">
             <div class= "col-sm-12 col-lg-6 align-items-center">
-                <img src="img/lets-get-cooking.webp" class="img-fluid mb-4 display-inline"/>
+                <img src="img/lets-get-cooking.webp" class="img-fluid mb-4 d-block w-100 mx-auto "/>
             </div>
             <div class="col-sm-12 col-lg-6">
                 <div class="card align-items-center border-0">
@@ -146,9 +148,9 @@
         </div>
     </div>
 </section>
-<div class="container text-center mx-auto mt-3">
+<div class="container-fluid text-center mx-auto" style="background-color: lightgray;">
     <h1>This Week's Featured Menu Selections</h1>
-<div id="carouselMenu" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselMenu" class="carousel slide mt-3" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselMenu" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselMenu" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -156,25 +158,25 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/hero-recipe-baked-macaroni-and-cheese.jpeg" class="d-block w-75 mx-auto" style="height: 500px;" alt="Baked Mac and Cheese">
+        <img src="img/hero-recipe-baked-macaroni-and-cheese.jpeg" class="d-block img-fluid w-100 mx-auto" style="height: 550px; max-width: 750px;" alt="Baked Mac and Cheese">
         <div class="carousel-caption d-none d-md-block">
           <h3><span style="background-color:orange;">Baked Macaroni and Cheese</span></h3>
-          <p><span style="background-color:orange;">It Aint easy being Cheesy! and Did i mention Crunchy at the same time?</span>
+          <p><span style="background-color:orange;">It Aint easy being Cheesy! and Did I mention Crunchy at the same time?</span>
         </p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/hero-recipe-herb-roasted-chicken.jpeg" class="d-block w-75 mx-auto" style="height: 500px;" alt="2">
+        <img src="img/hero-recipe-herb-roasted-chicken.jpeg" class="d-block img-fluid w-100 mx-auto" style="height: 550px; max-width: 750px;" alt="2">
         <div class="carousel-caption d-none d-md-block">
           <h3><span style="background-color:#ed7e72;">Whole Herb Roasted Chicken</span></h3>
-          <p><span style="background-color:#ed7e72;">The Timeless Classic</span></p>
+          <p><span style="background-color:#ed7e72;">The Timeless Classic adapted for your Ninja Foodi</span></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/hero-recipe-sticky-st-louis-ribs.jpeg" class="d-block w-75 mx-auto" style="height: 500px;" alt="3">
+        <img src="img/hero-recipe-sticky-st-louis-ribs.jpeg" class="d-block img-fluid w-100 mx-auto" style="height: 550px; max-width: 750px;" alt="3">
         <div class="carousel-caption d-none d-md-block">
          <h3><span style="background-color:#58b1b2">Sticky St.Louis Style Barbecue Ribs </span></h3>
-            <p><span style="background-color:#58b1b2">Ribs so good you'll need a Nap after this one!</span>
+            <p><span style="background-color:#58b1b2">Ribs so good you'll need a nap after this one!</span>
         </p>
         </div>
       </div>
@@ -188,13 +190,108 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <p><a href="#" class="btn btn-success btn-lg my-3" role="button">View Our Plans</a></p> 
+  <p><a href="#" class="btn btn-success btn-lg my-3" role="button">Let's Get Cooking!</a></p> 
 </div>
 
-<div class="container text-center mx-auto mt-3"></div>
-    <h1>Join The FoodiFreshRx Community</h1>
-    <h3>Cook it. Love it. Tag it #FoodiFreshRxPics</h3>
+<div class="container text-center mx-auto mt-3" >
+    <div class="row row-content align-items-center"> 
+        <h1>Join The <span>Foodi</span>Fresh<sup>Rx</sup> Community</h1>
+        <h3><span>Spread the love: Cook it. Heart it. Tag it </span><br><span style="color:#1cad58;">#FoodiFreshRxPics</span></h3>
     
+        <div class="container-fluid">
+            <div class="row">
+    
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-cilantro-lime-chicken-wings.jpeg" alt="Cilantro Lime Chicken Wings" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Cilantro Lime Chicken Wings</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 7.99</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-cilantro-lime-chicken-wings.jpeg">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-classic-cheeseburgers.webp" alt="Classic Cheeseburger" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">American Classic Cheeseburger</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 12</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-classic-cheeseburgers.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-easy-apple-crumble.webp" alt="Easy Apple Crumble" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Easy Apple Crumble</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 10</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-easy-apple-crumble.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-sweet-potato-sausage-hash.webp" alt="Sweet Potato Sausage Hash" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Sweet Potato Sausage Hash</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 12</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-sweet-potato-sausage-hash.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-spicy-shrimp-tortellini-marinara.webp" alt="Spicy Shrimp Tortellini Marinara" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Spicy Shrimp Tortellini Marinara</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 15</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-spicy-shrimp-tortellini-marinara.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="/img/thumb-recipe-one-pan-scalloped-potatoes.webp" alt="One Pan Scalloped Potatoes" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">One Pan Scalloped Potatoes</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 8.50</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-one-pan-scalloped-potatoes.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-fried-egg-without-oil-or-butter.webp" alt="Fried Organic Eggs without Oil or Butter" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Fried Organic Eggs without Oil or Butter</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 7.99</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-fried-egg-without-oil-or-butter.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                                <img src="img/thumb-recipe-maple-rosemary-chicken-with-fall-squash.webp" alt="Maple Rosemary Chicken W Fall Squash" />
+                                <div class="portfolio_images_overlay text-center">
+                                    <h6 class="clrd-font">Maple Rosemary Chicken With Fall Squash</h6>
+                                    <p class="clrd-font product_price"> <i class="fa fa-usd clrd-font" aria-hidden="true"></i> 12</p>
+                                    <a href="#" class="btn btn-primary">Order Now</a>
+                                </div>
+                                <a class="fancybox" rel="ligthbox" href="img/thumb-recipe-maple-rosemary-chicken-with-fall-squash.webp">
+                                    <div class="zoom"></div>
+                                </a>
+                        </div>
+            </div>
+        </div>
+    </div> 
 </div>
     <footer class="site-footer"> 
         <div class="container">
@@ -229,7 +326,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/18ca147713.js" crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
