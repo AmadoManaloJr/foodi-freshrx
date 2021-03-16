@@ -93,7 +93,22 @@ color:#1cad58;
 	color: #198754;
 	border-radius: 20px;
 }
-
+.carousel-bg{
+	background-image: url("../img/kitchen-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+.flexible-plans-bg{
+	background-image: url("../img/Veg-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+.flexible-plans{
+	background-color: white;
+	border: 2px solid #1cad58;
+}
 .single_portfolio_text{
 	display:inline-block;
 	padding:0;
